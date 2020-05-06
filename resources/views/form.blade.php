@@ -1,7 +1,7 @@
 @extends("welcome")
 
 @section("main")
-    <form method="post" action="">
+    <form method="post" action="{{ route('addBooking') }}">
         @csrf
         <label for="Name">Your name:</label>
         <input type="text" name="name" id="name" required="required" />
@@ -18,4 +18,9 @@
                 <option value="{{ $arrangement -> id }}"> {{ $arrangement -> title }} </option>
             @endforeach
         </select>
+        
+        <label for="Date">Date:</label>
+        <input type="date" name="Date" id="Date" required="required" />
+
+        <input type="submit" value="Book now" />
 @endsection

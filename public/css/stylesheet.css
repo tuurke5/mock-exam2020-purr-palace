@@ -36,16 +36,17 @@ main :nth-child(2){
     display: flex;
     
     justify-content: left;
-    align-content: space-between;
+    
 }
 form{
     margin-left: 10px;
+    
 }
 
 label{
     display: block;
 }
-input[type="tekst"], input[type="email"]{
+input[type="tekst"], input[type="email"], input[type="date"], input[type="select"], input[type="submit"]{
     display: block;
     width: 100px;
 }

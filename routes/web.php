@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/', 'FormController@index');
+
+Route::post("/add-booking", "FormController@addBooking") -> name("addBooking");
