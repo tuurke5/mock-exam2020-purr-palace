@@ -1,4 +1,21 @@
-p{
-    font-size: 15px;
-    color: red;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+}
+header h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 38px;
+    padding-left: 2rem;
+}
+header img{
+    width: 6rem;
+    height: 6rem;
+}
+
+main{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
