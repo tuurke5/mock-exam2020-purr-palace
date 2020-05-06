@@ -26,6 +26,7 @@
         </section>
     </main>
     <footer>
+        <hr />
         &copy; Arthur De Groote
     </footer>
 
