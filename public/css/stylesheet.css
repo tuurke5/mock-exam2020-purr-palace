@@ -18,4 +18,15 @@ header img{
 main{
     margin-top: 1rem;
     margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 30% 70%;
 }
+main :first-child{
+    grid-area: 1 / 1 / 1 / 1 ;
+}
+
+main section img{
+    height: 100%;
+    width: 100%;
+}
+

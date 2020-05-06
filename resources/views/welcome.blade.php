@@ -19,6 +19,7 @@
         <section>
         <p>Choose you're arangement today!</p>
         <img src=" {{ asset('/images/theme_image.jpg') }}"/>
+        <p>Kittens enjoying a furry weekend</p>
         </section>
         <section>
         @yield("main")
